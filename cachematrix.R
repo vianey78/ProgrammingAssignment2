@@ -8,8 +8,8 @@
 ##   function in R. For example, if X is a square invertible matrix, 
 ##   then solve(X) returns its inverse.
 ##
-## Usage Example for these Functions: 
-##    > my_matrix <- matrix(c(2, 1, 4, 3), nrow=2, ncol=2)
+## Usage Example for these Functions (must use a square matrix): 
+##    > my_matrix <- matrix(c(2, 4, 1, 3), nrow=2, ncol=2)
 ##    > my_cached_matrix <- makeCacheMatrix(my_matrix)
 ##    > cacheSolve(my_cached_matrix)
 ##    .... outputs the inverted matrix ...
